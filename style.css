@@ -1,0 +1,95 @@
+/* Body Styling */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: greenyellow;
+}
+
+/* Paragraph */
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* List */
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: green;
+    padding: 5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
+
+/* Form */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

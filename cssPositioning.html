@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d3
+        {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            right: 100px;
+
+        }
+        #d4
+        {
+            position: relative;
+            top: 120px;
+            left: 117px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--mostly all html elemnts ara static elements which means they cannot change their position-->
+    <div>it is one</div>
+    <div>it is two</div>
+    <!-- position: absolute allows you to place an element anywhere relative to its first positioned ancestor.-->
+    <div id="d3">it is three</div>
+    <!--When you use position: relative;, the element is positioned relative to its original (static) position, not the page or container.-->
+    <div id="d4">This is four</div>
+    <div id="first">This is about fixed postion</div>
+</body>
+</html>
